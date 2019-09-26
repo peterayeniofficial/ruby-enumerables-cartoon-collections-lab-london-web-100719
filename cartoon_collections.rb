@@ -10,7 +10,7 @@ end
 
 def long_planeteer_calls (word_arrays) # code an argument here
   # Your code here
-  a = word_arrays.collect {|x| x.length == 4 ? true : false}
+  a = word_arrays.collect {|x| x.length == 5 ? true : false}
   a.include?(true)
   
 end
