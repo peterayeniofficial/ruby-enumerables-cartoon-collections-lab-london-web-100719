@@ -20,7 +20,7 @@ def find_the_cheese (snacks) # code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   snacks.each_index do |index|
     if cheese_types.include?(snacks[index]) == true
-        return snacks[index]
+        puts snacks[index]
     end
   end
 end
