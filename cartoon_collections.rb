@@ -5,7 +5,7 @@ end
 
 def summon_captain_planet (planeteer)# code an argument here
   # Your code here
-  planeteer.collect {|x| puts x.upcase
+  planeteer.collect {|x| puts "#{x}!".upcase}
 end
 
 def long_planeteer_calls# code an argument here
