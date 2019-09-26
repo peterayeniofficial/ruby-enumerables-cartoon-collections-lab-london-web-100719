@@ -18,5 +18,5 @@ end
 def find_the_cheese (snacks) # code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  snacks.each_index { |index| cheese_types.include?(snacks[index]) == true ? snacks[index] : nil}
+  snacks.each_index { |index| cheese_types.include?(snacks[index]) == true ? return snacks[index] : return nil}
 end
